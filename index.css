@@ -23,8 +23,33 @@
     margin: 0 auto;
     transform: translateY(3vh);
     font-size: 250%;
+    overflow: hidden
 }
 
 .biaoti{
     opacity: 1;
 }
+
+.mkw{
+   max-width: 100%;
+   height: auto;
+}
+
+.background {
+    background-image: url('./mk.jpg');
+    background-size: cover; 
+    background-position: center; 
+}
+
+body {
+    background-image: url('./mk.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    opacity: 1;
+  }
+
+  .zt{
+    font-size: 2vh;
+  }
